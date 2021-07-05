@@ -1,0 +1,24 @@
+#headline{
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+}
+#play{
+    color: rgb(0, 0, 255);
+}
+section{
+    display: flex;
+}
+.intro{
+    padding: 2px 150px;
+    margin-right: 5%;
+}
+.button-design{
+    .button-design{
+        background-image: linear-gradient(to right, rgba(159, 201, 255, 0.856), rgb(151, 86, 255));
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 12px;
+        border-radius: 6px;
+        font-size: 20px;
+        margin-left: 30%;
+}
