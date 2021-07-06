@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0%;
 }
 #headline{
     color: rgb(255, 0, 0);
@@ -8,19 +9,21 @@ body{
 #play{
     color: rgb(0, 0, 255);
 }
-section{
+.flexible{
     display: flex;
+    padding: 0px;
 }
 .intro{
-    padding: 2px 150px;
-    margin-right: 5%;
+    padding: 15px 30px;
+    margin-right: 2%;
+    margin-left: 5%;
 }
 .button-design{
         background-image: linear-gradient(to right, rgba(159, 201, 255, 0.856), rgb(151, 86, 255));
         text-align: center;
         text-decoration: none;
         padding: 10px 12px;
-        border-radius: 6px;
+        border-radius: 20px;
         font-size: 20px;
         margin-left: 30%;
         color: black;
@@ -36,4 +39,60 @@ label {
 }
 #search-button{
     color: rgb(0, 4, 255);
+}
+.mid{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    padding: 15%;
+    
+}
+.about{
+    padding-left: 5%;
+    font-size: larger;
+}
+#second-button{
+    background-image: linear-gradient(to right, rgba(255, 159, 159, 0.856), rgb(252, 40, 40));
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 12px;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-left:350px;
+        color: black;   
+}
+#recipies{
+    text-align: center; 
+}
+.orange{
+    color: rgb(255, 68, 0);
+}
+.item{
+    border: 1px solid;
+  padding: 30px;
+  width: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  box-shadow: 15px 20px 10px #888888;
+}
+footer{
+    background-color:black;
+    color: chartreuse;
+    margin-bottom: 0%;
+    text-align: center; 
+    font-size: 50px;
+}
+#copyright{
+    color: white;
+    font-size: 20px;
+}
+#pizza{
+    width: 135px;
+}
+#burger{
+    width: 150px;
+}
+#rice{
+    width: 150px;
 }
